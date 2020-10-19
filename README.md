@@ -57,3 +57,6 @@ python predict.py -data_dir 'test_data/' -model 'models/'
 ```
 ## Prerequisites
 1. Python 3.7 or higher
+2. Pytorch 1.2.0 or higher
+3. Numpy 1.17.3
+5. CUDA if you would like to run on GPU(s)
