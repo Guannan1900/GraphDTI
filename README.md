@@ -48,12 +48,12 @@ python train.py -data_dir 'training_data/' -protocol 'cluster'
     * ```test_label.pickle```
   + input:
     * -data_dir: a test dataset path
-    * -model: the pre-trained model path
+    * -model: the pre-trained model for GraphDTI
   + output:
     * -output: The location for the roc results on a test dataset
 
 ```shell
-python predict.py -data_dir 'test_data/' -model 'models/'
+python predict.py -data_dir 'test_data/' -model 'GraphDTI.pt'
 ```
 ## Prerequisites
 1. Python 3.7 or higher
