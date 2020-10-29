@@ -32,7 +32,7 @@ python train_validation_list_generation.py -inpath 'training_data/'
     * -bs: batch size, recommended value is 32
     * -lr: learning rate, recommended value is 0.0001
     * -epoch: number of epoch for taining, recommended value is 30
-    * -protocol: different protocols for cross-validation
+    * -protocol: two protocols for cross-validation, which are 'cluster' or 'random'
   + output:
     * -output: location for the trained models to be saved
     * -logs: location for the logs to be saved
