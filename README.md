@@ -4,7 +4,7 @@ GraphDTI is a deep learning framework to predict the drug-target interactions us
 
 ## Files
 - ```permu_feature_importance.json```: The indices and important scores of all the integrated features. We provide a feature selection processdure in order to mitigate the overfitting problem. The details can be found in https://github.com/Guannan1900/GraphDTI_preprocess/tree/master/feature_selection.
-- ```train_validation_list.csv```: The information of split protocols for cross-validation. We design two types of protocols for cross-validation in order to evaluate the generalizability of the model. The details can be found in [link].
+- ```train_validation_list.csv```: The information of split protocols for cross-validation. We design two types of protocols for cross-validation in order to evaluate the generalizability of the model. The details can be found in https://github.com/Guannan1900/GraphDTI_preprocess/tree/master/clustering.
 - ```training_label.pickle```: The labels for all instances in the training dataset. 
 - ```test_list.pkl``` and ```test_label.pickle```: The names and labels for all instances in the test dataset.
 
