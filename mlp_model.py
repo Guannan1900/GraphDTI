@@ -19,5 +19,6 @@ class mlp_model(nn.Module):
         output = self.fc2(output)
         output = self.relu(output)
         output = self.fc3(output)
+        output = self.softmax(output)
 
         return output
