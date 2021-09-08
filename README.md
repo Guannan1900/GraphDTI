@@ -8,7 +8,7 @@ GraphDTI is a deep learning framework to predict the drug-target interactions us
 - ```training_label.pickle```: The labels for all instances in the training dataset. 
 - ```test_list.pkl``` and ```test_label.pickle```: The names and labels for all instances in the test dataset.
 
-> "Note: the training and test dataset can be available at: [link]"
+> "Note: the training and test dataset can be available at: https://osf.io/ugvd9/"
 
 ## Usage
 The framework is provided the training and prediction models
